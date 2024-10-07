@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           JetBrains and AmongUs Cursor
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    None
+@author         @ouo-anime
+==/UserStyle== */
+
+@-moz-document domain("bento.me") {
+    
+    * {
+        cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani), url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;
+        font-family: "JetBrains Mono" !important;
+    }
+    
+    body{
+        background-color: #bb86fcc9 !important; 
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #D5006D !important;
+    }
+
+    a {
+        color: #9C27B0 !important;
+    }
+
+    a:hover {
+        color: #BB86FC !important;
+    }
+
+    button, .btn {
+        background-color: #673ab7b8 !important;
+        color: #fff !important;
+    }
+    
+    .styles_button__content__8pzI8{
+        color: #000 !important;
+    }
+}
+
+@-moz-document url("https://bento.me/explore") {
+    
+    body{
+        background-color: #fff !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #000 !important;
+    }
+
+    a {
+        color: #000 !important;
+    }
+
+    a:hover {
+        color: #000000ba !important;
+    }
+}
